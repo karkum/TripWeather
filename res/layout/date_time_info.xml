@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg_tan">
+	<TextView android:id="@+id/title2" android:layout_gravity="center"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/title2" android:textColor="#C85A17"
+		android:textSize="22sp" />
+
+	<TextView android:id="@+id/label3" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/date"
+		android:textSize="22sp" android:textColor="#000" android:typeface="sans"
+		android:textStyle="bold"></TextView>
+	<DatePicker android:layout_height="wrap_content" android:id="@+id/datePicker1"
+		android:layout_width="match_parent"></DatePicker>
+
+	<TextView android:id="@+id/label4" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/time"
+		android:textSize="22sp" android:textColor="#000" android:typeface="sans"
+		android:textStyle="bold" />
+	<TimePicker android:id="@+id/timePicker1"
+		android:layout_height="wrap_content" android:layout_width="match_parent"></TimePicker>
+	<Button android:textSize="20sp" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/calcButton"
+		android:text="@string/calcButton"></Button>
+</LinearLayout>

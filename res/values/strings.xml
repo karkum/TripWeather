@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TripWeather!</string>
+    <string name="app_name">Trip Weather</string>
+<string name="start">From:</string>
+<string name="title1">Where will you be traveling?</string>
+<string name="end">To:</string>
+<string name="temperature">Temperature:</string>
+<string name="desc">Description:</string>
+<string name="fl">Feels Like:</string>
+<string name="cp">Chance of Precipitation:</string>
+
+<string name="about">About</string>
+<string name="calcButton">Calculate Weather</string>
+<string name="title2">When will you be leaving?</string>
+<string name="date">Date:</string>
+<string name="time">Time:</string>
+<string name="cont">Continue</string>
+<string name="detail_directions">See detailed directions</string>
+<string name="pass_through">Cities you might be passing through:</string>
+<string name="detail_dirs">View Detailed Directions</string>
+<string name="forecast">7-day Forecast:</string>
+</resources>

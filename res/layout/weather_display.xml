@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg_tan">
+	
+	<ImageView android:id="@+id/cond" 
+	android:layout_width="fill_parent" android:layout_height="wrap_content"></ImageView>
+	
+	<TextView android:id="@+id/temp" android:layout_gravity="center_vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/temperature" android:textColor="#000000"
+		android:textSize="22sp" />
+		
+	<TextView android:id="@+id/tempInfo" android:layout_gravity="center_vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:textSize="18sp" android:textColor="#C85A17"/>
+
+    <TextView android:id="@+id/desc" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/desc"
+		android:textSize="22sp" android:textColor="#000000"/>
+
+	<TextView android:id="@+id/descInfo" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="#C85A17"
+		android:textSize="18sp" />
+		
+	<TextView android:id="@+id/fl" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/fl" android:textColor="#000000"
+		android:textSize="22sp" />
+
+	<TextView android:id="@+id/flInfo" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="#C85A17"
+		android:textSize="18sp" />
+		
+	<TextView android:id="@+id/cp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/cp"
+		android:textSize="22sp" android:textColor="#000000"/>
+
+	<TextView android:id="@+id/cpInfo" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="#C85A17"
+		android:textSize="18sp" />
+		
+	<TextView android:id="@+id/info" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="12sp" android:textColor="#000000" />
+	
+</LinearLayout>
